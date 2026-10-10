@@ -1,3 +1,4 @@
+import Inicio from "../pages/Inicio";
 
 import { createBrowserRouter } from "react-router-dom";
 import Layout from "../components/Layout";
@@ -10,7 +11,7 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <PaginaPendiente titulo="Inicio" />,
+        element: <Inicio />,
       },
       {
         path: "catalogo",
