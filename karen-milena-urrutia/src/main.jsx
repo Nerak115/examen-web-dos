@@ -5,6 +5,7 @@ import { RouterProvider } from "react-router-dom";
 import "./index.css";
 import router from "./routes/router";
 import "./styles/libros.css";
+import "./styles/global.css";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
