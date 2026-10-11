@@ -2,8 +2,8 @@ import Inicio from "../pages/Inicio";
 
 import { createBrowserRouter } from "react-router-dom";
 import Layout from "../components/Layout";
-import PaginaPendiente from "../pages/PaginaPendiente";
 import Catalogo from "../pages/Catalogo";
+import Contacto from "../pages/Contacto";
 
 const router = createBrowserRouter([
   {
@@ -20,7 +20,7 @@ const router = createBrowserRouter([
       },
       {
         path: "contacto",
-        element: <PaginaPendiente titulo="Contacto" />,
+        element: <Contacto />,
       },
     ],
   },
