@@ -3,6 +3,7 @@ import Inicio from "../pages/Inicio";
 import { createBrowserRouter } from "react-router-dom";
 import Layout from "../components/Layout";
 import PaginaPendiente from "../pages/PaginaPendiente";
+import Catalogo from "../pages/Catalogo";
 
 const router = createBrowserRouter([
   {
@@ -15,7 +16,7 @@ const router = createBrowserRouter([
       },
       {
         path: "catalogo",
-        element: <PaginaPendiente titulo="Catálogo" />,
+        element: <Catalogo />,
       },
       {
         path: "contacto",
